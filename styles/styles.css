@@ -26,11 +26,30 @@ Quote text
 
 */
 
+/*
 body {
-    /*
+    
     background-color: whitesmoke;
-    */
+    
 }
+*/
+
+html {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .header {
     background-color: #1F2937;
@@ -40,8 +59,6 @@ body {
 .header-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    
     padding: 25px
 }
 
@@ -61,6 +78,7 @@ body {
 .header-links {
     display: flex;
     flex: 1 1 0;
+    align-items: center;
 }
 
 .header-link-1 {
@@ -77,4 +95,49 @@ body {
 .header-link-3 {
     flex: 0 1 120px;
     color: #E5E7EB;
+}
+
+.section1 {
+    background-color: #1F2937;
+    color: white;
+    height: 250px;
+}
+
+.section2 {
+    background-color: #ffff;
+    color: black;
+    height: 250px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    height: 250px;
+}
+
+.section4 {
+    background-color: #ffff;
+    height: 250px;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.spacer-start {
+    flex: 1 1 auto;
+}
+
+.copyright {
+    flex: 1 1 auto;
+    width: 33%;
+}
+
+.spacer-end {
+    flex: 1 1 auto;
 }
