@@ -26,3 +26,55 @@ Quote text
 
 */
 
+body {
+    /*
+    background-color: whitesmoke;
+    */
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    padding: 25px
+}
+
+.header-logo {
+    flex: 1 1 0;
+    /*
+    width: 60%;
+    */
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.spacer {
+    flex: 1 1 0;
+}
+
+.header-links {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.header-link-1 {
+    flex: 0 1 120px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+
+.header-link-2 {
+    flex: 0 1 120px;
+    color: #E5E7EB;
+}
+
+.header-link-3 {
+    flex: 0 1 120px;
+    color: #E5E7EB;
+}
