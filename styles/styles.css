@@ -101,17 +101,47 @@ body {
     background-color: #1F2937;
     color: white;
     height: 250px;
+    display: flex;
+    justify-content: center;
 }
 
-.section2 {
+/* .section2 {
     background-color: #ffff;
     color: black;
     height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.some-random-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section3 {
     background-color: #E5E7EB;
     height: 250px;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-author-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .section4 {
@@ -124,13 +154,14 @@ body {
     height: 100px;
     color: white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .spacer-start {
     flex: 1 1 auto;
+    width: 33%;
 }
 
 .copyright {
@@ -140,4 +171,5 @@ body {
 
 .spacer-end {
     flex: 1 1 auto;
+    width: 33%;
 }
