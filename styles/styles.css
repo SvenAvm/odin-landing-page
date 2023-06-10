@@ -54,6 +54,7 @@ body {
 .header {
     background-color: #1F2937;
     color: white;
+    height: 130px;
 }
 
 .header-container {
@@ -64,9 +65,6 @@ body {
 
 .header-logo {
     flex: 1 1 0;
-    /*
-    width: 60%;
-    */
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -103,17 +101,20 @@ body {
     height: 250px;
     display: flex;
     justify-content: center;
+    height: 300px;
 }
 
-/* .section2 {
-    background-color: #ffff;
-    color: black;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+.section1-left {
+    flex: 1 1 0;
+}
+
+.section1-right {
+    flex: 1 1 0;
+}
+
+.image-1 {
+    width: 420px;
+}
 
 .some-random-information {
     display: flex;
@@ -129,7 +130,6 @@ body {
 
 .section3 {
     background-color: #E5E7EB;
-    height: 250px;
 }
 
 .quote-container {
@@ -138,8 +138,12 @@ body {
     justify-content: center;
 }
 
+.quote {
+    flex: 1 1 0;
+}
+
 .quote-author-container {
-        display: flex;
+        flex: 1 1 0;
         align-items: center;
         justify-content: center;
 }
