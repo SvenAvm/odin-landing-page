@@ -74,10 +74,27 @@ body {
 .section1-flex-row-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.section1-flex-row-left-title-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.btn-sign-up {
+    background-color: #3882F6;
+    color: white;
+    border-color: #3882F6;
+    width: 100px;
+    height: 33px;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 300;
 }
 
 .image-1 {
+    border-radius: 25px;
 }
 
 .some-random-information {
@@ -86,14 +103,53 @@ body {
     justify-content: center;
 }
 
-.section2-images {
+.section2 {
+    height: 450px;
+}
+
+.section2-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-images-flex {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.small-picture {
+    border-radius: 25px;
 }
 
 .section3 {
     background-color: #E5E7EB;
+    height: 450px;
+}
+
+.section3-flex {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section3-quote {
+    width: 60%;
+    display: flex;
+}
+
+.section3-quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.section3-quote-author {
+
+}
+
+.section3-quote-author-text {
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 .quote-container {
