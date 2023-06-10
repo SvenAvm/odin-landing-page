@@ -1,39 +1,3 @@
-/*
-
-dark background color (hero and footer)
-#1F2937
-
-Hero Main text ("this website is awesome")
-49px extra-bold #F9FAF8
-
-Hero Secondary text, Header Link Text
-18px #E5E7EB
-
-Header Logo Text
-24px #F9FAF8
-
-Button color, call to action background color
-#3882F6
-
-Information header text
-36px extra-bold #1F2937
-
-Quote section background color
-#E5E7EB
-
-Quote text
-36px light italic #1F2937
-
-*/
-
-/*
-body {
-    
-    background-color: whitesmoke;
-    
-}
-*/
-
 html {
     margin: 0;
     min-height: 100%;
@@ -98,22 +62,22 @@ body {
 .section1 {
     background-color: #1F2937;
     color: white;
-    height: 250px;
+    height: 400px;
+}
+
+.section1-flex-row {
     display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.section1-flex-row-left {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 300px;
-}
-
-.section1-left {
-    flex: 1 1 0;
-}
-
-.section1-right {
-    flex: 1 1 0;
 }
 
 .image-1 {
-    width: 420px;
 }
 
 .some-random-information {
@@ -177,3 +141,40 @@ body {
     flex: 1 1 auto;
     width: 33%;
 }
+
+
+/*
+
+dark background color (hero and footer)
+#1F2937
+
+Hero Main text ("this website is awesome")
+49px extra-bold #F9FAF8
+
+Hero Secondary text, Header Link Text
+18px #E5E7EB
+
+Header Logo Text
+24px #F9FAF8
+
+Button color, call to action background color
+#3882F6
+
+Information header text
+36px extra-bold #1F2937
+
+Quote section background color
+#E5E7EB
+
+Quote text
+36px light italic #1F2937
+
+*/
+
+/*
+body {
+    
+    background-color: whitesmoke;
+    
+}
+*/
