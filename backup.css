@@ -1,0 +1,41 @@
+.section3-flex {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section3-quote {
+    width: 60%;
+    display: flex;
+}
+
+.section3-quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.section3-quote-author {
+
+}
+
+.section3-quote-author-text {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    flex: 1 1 0;
+}
+
+.quote-author-container {
+        flex: 1 1 0;
+        align-items: center;
+        justify-content: center;
+}
+0
