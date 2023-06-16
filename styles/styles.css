@@ -1,3 +1,7 @@
+/* 
+MAIN
+*/
+
 html {
     margin: 0;
     min-height: 100%;
@@ -14,6 +18,26 @@ body {
     object-fit: cover;
 }
 
+.widescreen-container {
+    display: flex;
+}
+
+.widescreen-spacer-left {
+    flex: 1 1 0;
+}
+
+.widescreen-spacer-right {
+    flex: 1 1 0;
+}
+
+.widescreen-content {
+    flex: 0 1 1100px;
+}
+
+
+/* 
+HEADER
+*/
 
 .header {
     background-color: #1F2937;
@@ -59,6 +83,10 @@ body {
     color: #E5E7EB;
 }
 
+/* 
+SECTION 1
+*/
+
 .section1 {
     background-color: #1F2937;
     color: white;
@@ -97,6 +125,10 @@ body {
     border-radius: 25px;
 }
 
+/* 
+SECTION 2
+*/
+
 .some-random-information {
     display: flex;
     align-items: center;
@@ -105,6 +137,7 @@ body {
 
 .section2 {
     height: 450px;
+    background-color: white;
 }
 
 .section2-flex {
@@ -122,13 +155,18 @@ body {
     border-radius: 25px;
 }
 
+/* 
+SECTION 3
+*/
+
 .section3 {
-    background-color: white;
+    background-color: #e5e7ebc0;
     height: 450px;
 }
 
 .section3-flex {
     display: flex;
+    align-items: center;
 }
 
 .section3-flex-spacer-left {
@@ -143,17 +181,14 @@ body {
     flex: 1 1 25%;
 }
 
-.section3-quote {
-
-}
-
 .section3-quote-text {
     font-size: 36px;
     font-style: italic;
 }
 
 .section3-quote-author {
-
+    display: flex;
+    justify-content: flex-end;
 }
 
 .section3-quote-author-text {
@@ -161,10 +196,19 @@ body {
     font-weight: bolder;
 }
 
+/* 
+SECTION 4
+*/
+
 .section4 {
     background-color: #ffff;
     height: 250px;
 }
+
+
+/* 
+FOOTER
+*/
 
 .footer {
     background-color: #1F2937;
